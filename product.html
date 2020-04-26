@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sản phẩm</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- lightslider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css">
+    <!-- style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reposive.css">
+
+  </head>
+  <body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header-sign">
+                        <i class="far fa-user"></i> <a href="#" class="header-sign__up">Đăng kí</a>
+                        <span class="div">/</span>
+                        <i class="fas fa-sign-in-alt"></i><a href="#" class="header-sign__in">Đăng nhập</a>
+                    </div>
+                    <div class="menu-toggle">
+                        <label for="menu-toggle">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </label>
+                        <input type="checkbox" name="menu-toggle" id="menu-toggle">
+                        <div class="menu-mobile pc-none">
+                            <div class="header__search-box text-flex-middle">
+                                <form action="">
+                                    <input type="text" class="header__search" placeholder="&#xf002; Nhập tên sản phẩm..." style="font-family: Arial, 'Font Awesome Free 5.13.0'">
+                                </form>
+                            </div>
+                            <ul class="menu-mobile__list">
+                                <li class="menu-mobile__item"><a href="#">Trang chủ</a></li>
+                                <li class="menu-mobile__item"><a href="#">Sản phẩm</a></li>
+                                <li class="menu-mobile__item"><a href="#">Bảng giá</a></li>
+                                <li class="menu-mobile__item"><a href="#">Ưu đãi</a></li>
+                                <li class="menu-mobile__item"><a href="#">Liên hệ</a></li>
+                                <li class="menu-mobile__item text-center">
+                                    <a href="#">
+                                        <img src="assets/img/logo-top.png" alt="logo" class="header__logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="overlay"></div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="header__mid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 text-flex-middle mobile-none" >
+                            <a href="#">
+                                <img src="assets/img/logo-top.png" alt="logo" class="header__logo">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mobile-none">
+                            <div class="header__search-box text-flex-middle">
+                                <form action="">
+                                    <input type="text" class="header__search" placeholder="Nhập tên sản phẩm...">
+                                    <a href="#" class="btn-search"><i class="fas fa-search"></i></a>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mobile-none">
+                            <div class="header__phone text-flex-middle justify-content-end">
+                                <a href="tel:+0937084675" class="phone__link d-flex align-items-center">
+                                    <img src="assets/img/icon-phone.png" alt="icon-phone" class="mr-1">
+                                    0937 084 675
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mobile-none">
+                            <div class="header__car text-flex-middle justify-content-end">
+                                <a href="#" class="car__link">
+                                    <img src="assets/img/icon-shopping.png" alt="icon-shopping">
+                                    <span class="badge badge-pill badge-danger ">0</span>
+                                    Giỏ hàng của tôi
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu mobile-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 d-flex align-items-center menu-lv2">
+                            <a href="#" class="menu__link menu__all ">
+                                <img src="assets/img/icon-list.png" alt="icon-list" class="mr-2">
+                                <span>TẤT CẢ DANH MỤC</span>    
+                            </a>
+                            <ul class="lv2">
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="lv2__children">
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="lv2__children">
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                        <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                        Sản phẩm mới
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="lv2__children">
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="lv2__children">
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                        <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                </a></li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                                <ul class="lv2__children">
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                                <ul class="lv2__children">
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                                <ul class="lv2__children">
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                </ul>
+                                </li>
+                                <li class="lv2__item"><a href="#">
+                                    <img src="assets/img/icon-phone-submenu.jpg" alt="icon sub phone">
+                                    Sản phẩm mới
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                                <ul class="lv2__children">
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                    <li class="lv2__children__item"><a href="#">Sản phẩm 1</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="index.html"class="menu__link"><i class="fas fa-home "></i> Trang chủ</a></li>
+                                <li class="menu__item"><a href="product.html"class="menu__link">Toàn bộ sản phẩm</a></li>
+                                <li class="menu__item"><a href="#"class="menu__link">Bảng giá</a></li>
+                                <li class="menu__item"><a href="contact.html"class="menu__link">Liên hệ với chúng tôi</a></li>
+                                <li class="menu__item"><a href="#"class="menu__link">Liên hệ hợp tác</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main-content">
+            <section class="breadcrum-content">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+            <section class="plc d-none d-md-block">
+                <div class="container">
+                    <ul class="plc__list">
+                        <li class="plc__item">
+                            <i class="icart"></i>
+                            <span class="plc__text">Giao hàng hoả tốc trong 1 giờ</span>
+                        </li>
+                        <li class="plc__item">
+                            <i class="ipig"></i>
+                            <span class="plc__text">Thanh toán linh hoạt: tiền mặt, visa / master, trả góp</span>
+                        </li>
+                        <li class="plc__item">
+                            <i class="ismartphone"></i>
+                            <span class="plc__text">Trải nghiệm sản phẩm tại nhà</span>
+                        </li>
+                        <li class="plc__item">
+                            <i class="icd"></i>
+                            <span class="plc__text">Lỗi đổi tại nhà trong 1 ngày</span>
+                        </li>
+                        <li class="plc__item">
+                            <i class="isupport"></i>
+                            <span class="plc__text">Hỗ trợ suốt thời gian sử dụng. Hotline: 
+                                <a href="tel:0706426366">0706426366</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="product">
+               <div class="container">
+                   <div class="clearfix">
+                    <div class="col-1-5">
+                        <a href="">
+                            <article class="product-content">
+                             <div class="card">
+                                 <img class="card-img-top" src="assets/img/product-1.png" alt="product img">
+                                 <div class="card-body">
+                                   <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                   <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                 </div>
+                             </div>
+                            </article>
+                        </a>
+                     </div>
+                    <div class="col-1-5">
+                        <a href="">
+                         <article class="product-content">
+                             <div class="card">
+                                 <img class="card-img-top" src="assets/img/mic.jpg" alt="product img">
+                                 <div class="card-body">
+                                   <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                   <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                 </div>
+                             </div>
+                            </article>
+                        </a>
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/mic-2.jpg" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/mic-3.jpg" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/product-1.png" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+                     </div>
+                    <div class="col-1-5">
+                        <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/product-1.png" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/mic.jpg" alt="product img">
+                                     <div class="card-body">
+                                       <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                       <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                                </article>
+                         </a>
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/mic-2.jpg" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/mic-3.jpg" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+
+                     </div>
+                     <div class="col-1-5">
+                         <a href="#">
+                             <article class="product-content">
+                                 <div class="card">
+                                     <img class="card-img-top" src="assets/img/product-1.png" alt="product img">
+                                     <div class="card-body">
+                                     <h5 class="card-title">Pin sạc dự phòng Energizer 10,000mAh - UE10033 - Chính hãng</h5>
+                                     <p class="card-text">90.000đ  <del class="price-reject">190.000đ</del></p>
+                                     </div>
+                                 </div>
+                             </article>
+                         </a>
+                     </div>
+                 </div>
+               </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="#">
+                            <img src="assets/img/logo-phukien.png" alt="footer logo" class="footer__logo">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer__info">
+                            <h3 class="footer__head">
+                                <b>ĐỊA CHỈ LIÊN HỆ</b>
+                            </h3>
+                            <a href="#" class="footer__link">
+                                <b>Địa chỉ: </b><span>126 Đỗ Xuân Hợp, P Phước Long A, Quận 9</span>
+                            </a>
+                            <a href="tel:+84937 084676" class="footer__link">
+                                <b>Điện thoại: </b><span>0937 084676 </span>
+                            </a>
+                            <a href="maito:tribi331@gmail.com" class="footer__link">
+                                <b>Email: </b><span>tribi331@gmail.com</span>  
+                            </a>
+                            <a href="#" class="footer__link">
+                                <b>Website: </b><span>phukiengiabuon.com</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer__info">
+                            <h3 class="footer__head">
+                                <b>THÔNG TIN TÀI KHOẢN</b>
+                            </h3>
+                            <h3 class="footer__head">Techcombank - Chi nhánh Đỗ Xuân Hợp</h3>
+                            <a href="tel:+84937 084676" class="footer__link">
+                                <b>Số tài khoản: </b><span>0937 084676 </span>
+                            </a>
+                            <a href="maito:tribi331@gmail.com" class="footer__link">
+                                <b>Chủ tài khoản: </b><span>tribi331@gmail.com </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer__info">
+                            <h3 class="footer__head text-center">
+                                <b>ĐỊA CHỈ LIÊN HỆ</b>
+                            </h3>
+                            <ul class="social">
+                                <li class="social__item facebook">
+                                    <a href="#">
+                                    </a>
+                                </li>
+                                <li class="social__item zalo">
+                                    <a href="#">
+                                    </a>
+                                </li>
+                                <li class="social__item youtube">
+                                    <a href="#">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text text-right">
+                    &copy; Bản quyền thuộc về <b>Phụ kiện giá buôn</b> | Cung cấp bởi <a href="#"><b>PTB Team</b></a>
+                </div>
+            </div>
+        </div>
+        <a id="button">
+            <i class="fas fa-arrow-up    "></i>
+        </a>
+        <a href="tel:+0937084675">
+            <div class="phone-call">
+                <img src="assets/img/tải xuống.png" alt="Call Now" title="Call Now">
+            </div>
+        </a>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

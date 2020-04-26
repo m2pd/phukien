@@ -1,0 +1,249 @@
+@media (max-width:991px){
+    html{
+        font-size: 50%;
+    }
+
+    .col-1-5 {
+        width: calc((100% - 3 * 1rem)/4);
+    }
+
+    .col-1-5:not(:nth-child(5n)) {
+        margin-right: 0;
+    }
+
+    .col-1-5:not(:nth-child(4n)) {
+        margin-right: 1rem;
+    }
+
+    .table-none{
+        display: none;
+    }
+
+    .heading-2 {
+        font-size: 3.25rem;
+    }
+
+    .heading-3 {
+        font-size: 2.25rem;
+    }
+
+    p,
+    .price-reject,
+    .aside-box__list {
+        font-size: 1.5rem;
+    }
+
+    .menu__link{
+        padding: 1.25rem;
+    }
+
+    .menu__all img{
+        width: 17px;
+    }
+    .menu__all span{
+        white-space: nowrap;
+    }
+
+    ul.carried__list,
+    .plc__list{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    li.carried__item {
+        padding: 1.25rem 2.25‬rem;
+        background: white;
+        height: 6.875rem;
+        display: flex;
+        align-items: center;
+    }
+
+    li.carried__item img{
+        max-width: none;
+    }
+
+    .card-title,
+    .footer__link span,
+    .plc__text,
+    .contact__link,
+    .contact__text,
+    .col-form-label,
+    .aside-box--no-border ul li a{
+        font-size: 1.75rem;
+        line-height: 2.3rem;
+    }
+
+    p.card-text,
+    .footer__head,
+    .footer__link,
+    .breadcrumb,
+    .contact .form-control,
+    .contact textarea,
+    .btn-submit,
+    .btn-add-cart a,
+    .product__description,
+    .details p,
+    .header__search-box input{
+        font-size: 2rem;
+    }
+    .social .social__item{
+        margin-right: .5rem
+    }
+
+    .plc__item{
+        flex: 0 0 33%;
+    }
+
+    .plc__list i{
+        background-size: 4rem;
+        background-position: center;
+    }
+    
+    .icart {
+        background-size: 4.5rem !important;
+    }
+
+
+    .product__description .title{
+        margin-bottom: 3rem !important;
+    }
+}
+
+@media (max-width:767px){
+    .pc-none{
+        display: block;
+    }
+
+    .mobile-none{
+        display: none;
+    }
+
+    .col-1-5 {
+        width: calc((100% - 1 * 1rem)/2);
+    }
+
+    .col-1-5:not(:nth-child(4n)) {
+        margin-right: auto;
+    }
+
+    .col-1-5:not(:nth-child(2n)) {
+        margin-right: 1rem;
+    }
+
+    .menu-mobile {
+        position: absolute;
+        z-index: 9999;
+        background-color: #f9f9f9;
+        left: -100%;
+        top:0;
+        width: 250px;
+        overflow: hidden;
+        height: 100%;
+        transition: all .2s ease-in-out 0s;
+    }
+
+    .active-menu{
+        left: 0%;
+    }
+    .active-label{
+        transform: translateX(240px);
+    }
+
+    
+    #menu-toggle{
+        display: none;
+    }
+    .menu-mobile__item{
+        border-top: 1px solid #cccccc;
+    }
+
+    .menu-mobile__item.active-2{
+        background-color: #ffd100;
+    }
+
+    .menu-mobile__item a{
+        color: #000;
+        font-size: 1.875rem;
+        display: inline-block;
+        padding: 1.25rem;
+    }
+
+    .menu-toggle label {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 22px;
+        width: auto;
+        background: #fff200;
+        border-right: 1px solid white;
+        border-radius: 50%;
+        color: #000;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        transition: all .2s ease-in-out 0s;
+
+    }
+
+    i.fa.fa-bars {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .overlay {
+        background: #000;
+        opacity: .8;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        visibility: hidden;
+    }
+
+    .overlay.active-overlay{
+        visibility: visible;
+    }
+
+    .header__search-box input{
+        font-style: normal;
+
+    }
+
+    .header__search-box form {
+        padding: 10px 15px;
+    }
+
+    .text-flex-middle{
+        height: auto;
+    }
+
+    .banner img {
+        height: 30vh;
+    }
+
+    footer.footer{
+        text-align: center;
+    }
+
+    .footer__logo{
+        width: 50%;
+    }
+
+    .footer__info, 
+    .footer__logo{
+        margin-bottom: 2.5rem;
+    }
+
+    .contact__left{
+        margin-bottom: 3.5rem;
+    }
+
+    .contact .form-control, 
+    .contact textarea, 
+    .btn-submit {
+        padding: 1rem 1.75rem;
+    }
+}
